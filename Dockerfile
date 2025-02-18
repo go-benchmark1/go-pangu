@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.21.3
 WORKDIR /app
 ADD dist/go-pangu-amd64-release-linux go-pangu
 COPY application.yml .
